@@ -40,7 +40,7 @@ def main():
     tol = 7e-6
     alpha_geo = 255 * rate
     model_name              = 'diffusion_ffhq_10m'  # diffusion_ffhq_10m, 256x256_diffusion_uncond; set diffusino model
-    testset_name            = 'ffhq_re'            # set testing set,  'imagenet_val' | 'ffhq_val'
+    testset_name            = 'ffhq_val'            # set testing set,  'imagenet_val' | 'ffhq_val'
     num_train_timesteps     = 1000
     iter_num                = 100               # set number of iterations
     iter_num_U              = 1                 # set number of inner iterations, default: 1
