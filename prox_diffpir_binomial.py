@@ -42,7 +42,7 @@ def main():
     tol = 1e-4 
     alpha_bin = 255 * rate
     model_name              = '256x256_diffusion_uncond'  # diffusion_ffhq_10m, 256x256_diffusion_uncond; set diffusino model
-    testset_name            = 'imagenet_re'    #demo_test        # set testing set,  'imagenet_val' | 'ffhq_val'
+    testset_name            = 'imagenet_val'    # set testing set,  'imagenet_val' | 'ffhq_val'
     num_train_timesteps     = 1000
     iter_num                = 100               # set number of iterations
     iter_num_U              = 1                 # set number of inner iterations, default: 1
